@@ -19,7 +19,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="android_build" remote="chaos" revision="mr1-staging" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
